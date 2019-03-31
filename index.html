@@ -4,15 +4,16 @@
 <head>
     <title>Sample_Website</title>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/main.css"/>
 </head>
 
-<body>
+<body style="background: #71829e">
 
-    <div>
-        <a href="index.html">Home</a>
-        <a href="tags.html">HTML Tags</a>
-        <a href="dick.html">Moby Dick</a>
-        <a href ="shakespear.html">Shakespear</a>
+    <div id="main-nav" class="nav-menu">
+        <a href="index.html" class="nav-spacing nav-decoration">Home</a>
+        <a href="tags.html" class="nav-spacing nav-decoration">HTML Tags</a>
+        <a href="dick.html" class="nav-spacing nav-decoration">Moby Dick</a>
+        <a href ="shakespear.html" class="nav-spacing nav-decoration">Shakespear</a>
     </div>
     
     <h1>Pick a link!</h1>
@@ -36,14 +37,29 @@
         </a>
     <p>This is some weird dude</p>
     <img src="https://gravatar.com/avatar/e2d6ce2ba5c1b6d674ae8ff2b3b45d23?s=150" alt="Nick Merwin">
-    <p>
+    <p style="margin-bottom: 100px">
         <!-- doesnt want to curl image for some reason -->
-        <a href="fucktwitter.html" target="_blank" rel="noopener" style="text-declaration: none;">
-                <img src="images/fuck.png" alt="twitter bird"/></a> FUCK TWITTER
+        <a href="fucktwitter.html" target="_blank" rel="noopener" class="image-link">
+                <img src="images/fuck.png" alt="twitter bird"/>
+                </a> FUCK TWITTER
         <a href="fucktwitter.html" target="_blank" rel="noopener">
                 <strong>HERE</strong>
             </a>
     </p>
+    <h2>SOME QUOTES FROM THE TUTORIAL :P</h2>
+    <p>
+        In addition to hosting most of the world's supply of kitten videos, the
+      Web is also full of inspiring quotes, perhaps none more so than this one:
+    </p>
+    
+    <!-- apparently background: <color> works also instead of background-color: <color> -->
+    <blockquote style="padding: 2px 20px; background: #f00;">
+        <p>
+            <em>Don't believe every quote you read on the Internet.</em>
+            <br>
+            <strong>-Abraham Lincoln</strong>
+        </p>
+    </blockquote>
 </body>
 
 </html>

@@ -1,0 +1,13 @@
+.nav-spacing{
+    margin-left: 10px;
+}
+.nav-decoration{
+    text-decoration:none currentcolor solid;
+    color: blue;
+}
+.nav-menu{
+    text-align: right;
+}
+.image-link{
+    text-decoration: none;
+}
